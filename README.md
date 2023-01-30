@@ -31,7 +31,7 @@
 
 ---
 ### Статус workflow
-[![Django-app workflow](https://github.com/AlGenSo/yamdb_final/actions/workflows/main.yml/badge.svg)](https://github.com/AlGenSo/yamdb_final/actions/workflows/main.yml)
+[![Yamdb_final workflow](https://github.com/AlGenSo/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/AlGenSo/yamdb_final/actions/workflows/yamdb_workflow.yml)
 ---
 ---
 
