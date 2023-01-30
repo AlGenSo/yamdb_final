@@ -1,4 +1,4 @@
-name: Django-app workflow
+name: Yamdb_final workflow
 
 on: 
   push:
@@ -36,8 +36,8 @@ jobs:
         # запуск проверки проекта по flake8
         python -m flake8
         # перейти в папку, содержащую manage.py — 
-        #<корневая_папка_infra_actions>/<папка_проекта>/manage.py
-        cd infra_project/
+        # Переход в папку с файлом manage.py
+        cd pai_yamdb/
         # запустить написанные разработчиком тесты
         python manage.py test
 
