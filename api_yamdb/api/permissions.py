@@ -80,3 +80,5 @@ class ReviewPermissions(permissions.BasePermission):
                 )
 
             return True
+
+        return None
