@@ -1,6 +1,8 @@
 name: Yamdb_final workflow
 
-on: [ push ]
+on: 
+  push:
+    branches: [ master ]
 
 jobs:
   tests:
@@ -26,7 +28,7 @@ jobs:
         # установка flake8 и его плагинов
         pip install flake8 pep8-naming flake8-broken-line flake8-return flake8-isort
         # установка зависимостей
-        pip install -r requirements.txt 
+        pip install -r api_yamdb/requirements.txt 
 
     # Проверка кода на соответствие стандарту PEP8
     - name: Test with flake8 and django tests
