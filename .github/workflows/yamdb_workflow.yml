@@ -42,6 +42,7 @@ jobs:
         # запустить написанные разработчиком тесты
         python manage.py test
 
+
   # Сборка и доставка докер-образа для контейнера web на Docker Hub
   build_and_push_to_docker_hub:
     name: Push Docker image to Docker Hub
