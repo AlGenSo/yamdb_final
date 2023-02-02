@@ -69,6 +69,7 @@ jobs:
           tags: ${{ secrets.DOCKER_USERNAME }}/yamdb_final:latest
           file: api_yamdb/Dockerfile
 
+
   # Автоматический деплой проекта на боевой сервер
   deploy:
     runs-on: ubuntu-latest
