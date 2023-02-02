@@ -38,8 +38,7 @@ jobs:
         # Переход в папку с файлом manage.py
         cd api_yamdb/
         # запустить написанные разработчиком тесты
-        python manage.py pytest
-
+        python manage.py test
 
   # Сборка и доставка докер-образа для контейнера web на Docker Hub
   build_and_push_to_docker_hub:
