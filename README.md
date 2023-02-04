@@ -34,6 +34,21 @@
 ---
 ---
 
+##### Запуск проекта
+
+* _Клонировать репозиторий: `git clone` git@github.com:AlGenSo/yamdb_final.git_
+* _Перейти в него в командной строке: `cd yamdb_final/`_
+* _Перейти в папку infra: `cd infra`_
+* _Создать файл .env, с параметрами:_
+    ```
+    DB_ENGINE=django.db.backends.postgresql
+    DB_NAME=postgres
+    POSTGRES_USER=postgres
+    POSTGRES_PASSWORD=postgres
+    DB_HOST=db
+    DB_PORT=5432
+    ```
+
 ### Разработчик проекта:
 ##### Солодовников Александр
 ---
