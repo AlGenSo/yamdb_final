@@ -54,6 +54,7 @@ ip 158.160.3.56
     DB_PORT=5432
     ```
 * _Заполнить на github, в разделе Settings >> Secret and variables >> Actions, вкладка Secrets, secret-переменными:_
+
     _Названия ключей:_
     ~~~
     DB_ENGINE # значение из файла .env
