@@ -89,7 +89,10 @@ docker-compose exec web python manage.py collectstatic --no-input # Собрат
 
 ##### Запуск на сервере
 * _Выполнить push на github_
-* _Войти на сервер: ssh <имя-пользователя>/<ip-servers>_
+* _Войти на сервер:_
+    ~~~
+    ssh <имя-пользователя>/<ip-servers>
+    ~~~
 * _Вывести контейнеры: sudo container ls_
 * _Войти в bash контейнера web: sudo docker exec -it <ID> bash_
 * _И выолнить команды:_
