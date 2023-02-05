@@ -32,7 +32,6 @@
 ### Статус workflow
 [![Yamdb_final workflow](https://github.com/AlGenSo/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/AlGenSo/yamdb_final/actions/workflows/yamdb_workflow.yml)
 ---
----
 
 ##### Запуск проекта
 
