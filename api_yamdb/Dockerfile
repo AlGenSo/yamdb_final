@@ -3,7 +3,7 @@ FROM python:3.7-slim
 RUN mkdir /app
 WORKDIR /app
 COPY . .
-RUN pip3 install --upgrade pip
-RUN pip3 install -r ./api_yamdb/requirements.txt --no-cache-dir
+RUN pip install --upgrade pip
+RUN pip install -r ./api_yamdb/requirements.txt --no-cache-dir
 
 CMD ["gunicorn", "--capture-output", "api_yamdb.wsgi:application", "--bind", "0:8000" ]
