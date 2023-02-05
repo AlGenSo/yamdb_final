@@ -74,6 +74,18 @@ ip 158.160.3.56
     TELEGRAM_TOKEN # токен вашего бота
     USER # имя пользователя для подключения к серверу
     ~~~
+##### Запуск локально
+* _Собрать образ при помощи docker-compose: $ docker-compose up -d --build_
+* _Выполнить по почереди следующие команды:_
+
+    _Замечание: При использовании ОС Win 11 Home, некоторые команды не проходят без префикса winpty (например, при создании суперюзера)_
+~~~
+docker-compose exec web python manage.py migrate # Выполнить миграции
+docker-compose exec web python manage.py createsuperuser # Создать суперюзера
+docker-compose exec web python manage.py collectstatic --no-input # Собрать статику
+~~~
+
+##### Запуск на сервере
 * _Выполнить push на github_
 * _Войти на сервер: ssh <имя-пользователя>/<ip-servers>_
 * _Вывести контейнеры: sudo container ls_
@@ -83,7 +95,7 @@ ip 158.160.3.56
     _python manage.py createsuperuser # Создать суперюзера_
     _python manage.py collectstatic --no-input # Собрать статику_
 ---
-
+---
 
 ### Разработчик проекта:
 ##### Солодовников Александр
