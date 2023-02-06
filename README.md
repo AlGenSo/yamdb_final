@@ -81,6 +81,7 @@ ip 158.160.3.56
 * _Выполнить по почереди следующие команды:_
 
     _Замечание: При использовании ОС Win 11 Home, некоторые команды не проходят без префикса winpty (например, при создании суперюзера)_
+
 ~~~
 docker-compose exec web python manage.py migrate # Выполнить миграции
 docker-compose exec web python manage.py createsuperuser # Создать суперюзера
