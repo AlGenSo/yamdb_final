@@ -96,9 +96,11 @@ docker-compose exec web python manage.py collectstatic --no-input # Собрат
 * _Вывести контейнеры: sudo container ls_
 * _Войти в bash контейнера web: sudo docker exec -it <ID> bash_
 * _И выолнить команды:_
-    _python manage.py migrate # Выполнить миграции_
-    _python manage.py createsuperuser # Создать суперюзера_
-    _python manage.py collectstatic --no-input # Собрать статику_
+~~~
+python manage.py migrate # Выполнить миграции
+python manage.py createsuperuser # Создать суперюзера
+python manage.py collectstatic --no-input # Собрать статику
+~~~
 ---
 ---
 
