@@ -88,6 +88,9 @@ docker-compose exec web python manage.py createsuperuser # Создать суп
 docker-compose exec web python manage.py collectstatic --no-input # Собрать статику
 ~~~
 
+[ReDoc](http://localhost/redoc/)
+---
+
 ##### Запуск на сервере
 * _Выполнить push на github_
 * _Войти на сервер:_
