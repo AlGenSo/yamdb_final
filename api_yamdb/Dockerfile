@@ -1,6 +1,5 @@
 FROM python:3.7-slim
 
-RUN mkdir /app
 WORKDIR /app
 COPY api_yamdb/ .
 RUN pip3 install --upgrade pip
